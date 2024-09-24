@@ -1,0 +1,26 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: serif; /* Serif font */
+    font-size: 5rem; /* Adjust this as needed */
+    text-align: center;
+}
+
+/* Additional styling for better visibility */
+body > div {
+    line-height: 1.5;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
