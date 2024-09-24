@@ -1,0 +1,15 @@
+# Allow all user agents to crawl the site
+User-agent: *
+Disallow:
+
+# Block specific pages or directories if needed (Uncomment if necessary)
+# Disallow: /admin/
+# Disallow: /login/
+# Disallow: /private/
+
+# Block specific bots (if needed)
+# User-agent: BadBot
+# Disallow: /
+
+# Sitemap (if you have one)
+# Sitemap: https://jam3sval3ntin3.com/sitemap.xml
