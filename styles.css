@@ -8,13 +8,14 @@
 body {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    font-family: serif; /* Serif font */
+    font-family: 'Metal Mania', sans-serif; /* Ensure font-family consistency */
     font-size: 5rem; /* Adjust this as needed */
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Additional styling for better visibility */
@@ -23,22 +24,17 @@ body > div {
     padding: 20px;
     border: 2px solid #fff;
     border-radius: 10px;
-}
-body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
+    width: fit-content;
 }
 
 .large-text {
     font-size: 32px;
+    display: block;
+    width: 100%;
 }
 
 .small-text {
     font-size: 18px;
+    display: block;
+    width: 100%;
 }
-
-body {
-    font-family: 'Metal Mania', sans-serif;
-  }
