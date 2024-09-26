@@ -57,12 +57,101 @@
         a:hover {
             color: #ddd;
         }
+
+        /* Navigation Bar */
+        .navbar {
+            text-align: center;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            display: none; /* Hide by default */
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .navbar ul li {
+            margin: 10px 0;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Metal Mania', cursive;
+        }
+
+        .navbar ul li a:hover {
+            color: #00aced; /* Change color on hover */
+        }
+
+        /* Menu Toggle for all screens */
+        .menu-toggle {
+            display: block;
+            cursor: pointer;
+            color: white;
+            font-size: 30px;
+            text-align: right;
+            margin-right: 20px;
+        }
+
+        /* Show menu when active */
+        .navbar.active ul {
+            display: flex;
+        }
+
+        /* Media Query for Larger Screens */
+        @media (min-width: 769px) {
+            .navbar ul {
+                flex-direction: row;
+                display: flex;
+            }
+
+            .menu-toggle {
+                display: none; /* Hide the toggle on larger screens */
+            }
+
+            .navbar ul li {
+                margin-right: 15px;
+            }
+        }
     </style>
 </head>
 <body>
+
+    <!-- Menu Toggle Button for all screen sizes -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/prints.html">Prints</a></li>
+            <li><a href="/originals.html">Originals</a></li>
+            <li><a href="/marked.html">Marked</a></li>
+            <li><a href="/affiliations.html">Affiliations</a></li>
+            <li><a href="/coverage.html">Coverage</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/about.html">About</a></li>
+        </ul>
+    </nav>
+
     <div>
         <p class="large-text">oh fuck, wrong turn - this pag3 do3sn't 3xist</p>
         <span class="small-text"><a href="/">back to jam3sval3ntin3.com</a></span>
     </div>
+
+    <!-- JavaScript to toggle menu -->
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+
 </body>
 </html>

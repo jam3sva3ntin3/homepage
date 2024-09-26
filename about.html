@@ -30,11 +30,13 @@
       .navbar ul {
           list-style-type: none;
           padding: 0;
+          display: none; /* Hide by default for all screen sizes */
+          flex-direction: column;
+          align-items: center;
       }
 
       .navbar ul li {
-          display: inline;
-          margin-right: 15px;
+          margin: 10px 0;
       }
 
       .navbar ul li a {
@@ -48,37 +50,35 @@
           color: #00aced; /* Change color on hover */
       }
 
-      /* Mobile Menu Styles */
-      @media (max-width: 768px) {
+      /* Show menu when active */
+      .navbar.active ul {
+          display: flex;
+      }
+
+      /* Menu Toggle */
+      .menu-toggle {
+          display: block;
+          cursor: pointer;
+          color: white;
+          font-size: 30px;
+          text-align: right;
+          margin-right: 20px;
+      }
+
+      /* Media Query for Larger Screens */
+      @media (min-width: 769px) {
           .navbar ul {
-              display: none;
-              flex-direction: column;
-              align-items: center;
-              text-align: center;
-          }
-
-          .navbar ul li {
-              margin: 10px 0;
-              display: block;
-          }
-
-          .navbar.active ul {
+              flex-direction: row;
               display: flex;
           }
 
           .menu-toggle {
-              display: block;
-              cursor: pointer;
-              color: white;
-              font-size: 30px;
-              text-align: right;
-              margin-right: 20px;
+              display: none; /* Hide the toggle on larger screens */
           }
-      }
 
-      /* Always hide toggle for larger screens */
-      .menu-toggle {
-          display: none;
+          .navbar ul li {
+              margin-right: 15px;
+          }
       }
 
       p {
@@ -113,7 +113,7 @@
 </head>
 <body>
 
-  <!-- Menu Toggle Button for Mobile -->
+  <!-- Menu Toggle Button for all screens -->
   <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 
   <!-- Navigation Bar -->
@@ -134,7 +134,7 @@
   <p class="large-text">jam3sval3ntin3</p>
   <p>about</p>
   <p class="small-text">jam3sval3ntin3@gmail.com<br>@jam3sval3ntin3</p>
-  <p class="large-text">orignal cr3ations, fin3 art r3productions and tattoo imag3ry from th3 jam3sval3ntin3 collective of artists</p>
+  <p class="large-text">original creations, fine art reproductions and tattoo imagery from the jam3sval3ntin3 collective of artists</p>
 
   <!-- Social buttons -->
   <div class="social-buttons">
