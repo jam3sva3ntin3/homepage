@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Homepage -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.00</priority>
+   </url>
+
+   <!-- Prints Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/prints.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.80</priority>
+   </url>
+
+   <!-- Originals Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/originals.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.80</priority>
+   </url>
+
+   <!-- Marked Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/marked.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.80</priority>
+   </url>
+
+   <!-- Affiliations Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/affiliations.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.70</priority>
+   </url>
+
+   <!-- Coverage Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/cov3rag3.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.70</priority>
+   </url>
+
+   <!-- Publications Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/publications.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.70</priority>
+   </url>
+
+   <!-- Contact Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/contact.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.80</priority>
+   </url>
+
+   <!-- About Page -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/about.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.80</priority>
+   </url>
+
+   <!-- 404 Page (Optional, if you want search engines to know about this page) -->
+   <url>
+      <loc>https://jam3sval3ntin3.com/404.html</loc>
+      <lastmod>2024-09-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.50</priority>
+   </url>
+
+</urlset>
