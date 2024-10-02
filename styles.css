@@ -8,7 +8,7 @@
 body {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
-    height: 100vh;
+    height: fit-content;
     font-family: 'Metal Mania', sans-serif; /* Ensure font-family consistency */
     font-size: 5rem; /* Adjust this as needed */
     text-align: center;
