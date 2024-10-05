@@ -28,13 +28,17 @@ body > div {
 }
 
 .large-text {
-    font-size: 40px;
+    font-size: 65px;
     display: block;
     width: 100%;
 }
 
 .small-text {
-    font-size: 26px;
+    font-size: 45px;
     display: block;
     width: 100%;
 }
+
+body {
+    font-size: 35px;
+  }
