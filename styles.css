@@ -1,4 +1,4 @@
-/* Reset default margins and padding */
+* Reset default margins and padding */
 * {
     margin: 0;
     padding: 0;
@@ -8,17 +8,18 @@
 body {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
-    height: fit-content;
     font-family: 'Metal Mania', sans-serif; /* Ensure font-family consistency */
-    font-size: 5rem; /* Adjust this as needed */
+    font-size: 2.3rem;
     text-align: center;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    padding: 20px;
 }
 
-/* Additional styling for better visibility */
+/* Styling for visibility and structure */
 body > div {
     line-height: 1.5;
     padding: 20px;
@@ -27,18 +28,16 @@ body > div {
     width: fit-content;
 }
 
-.large-text {
-    font-size: 65px;
-    display: block;
-    width: 100%;
-}
-
-.small-text {
-    font-size: 45px;
-    display: block;
-    width: 100%;
-}
-
+/* Additional body styling */
 body {
-    font-size: 35px;
-  }
+    line-height: 1.4;
+    padding: 40px 20px; /* General padding for responsiveness */
+}
+
+/* Responsive media query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5rem; /* Adjust for smaller screens */
+        padding: 20px;
+    }
+}
