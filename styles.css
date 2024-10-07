@@ -41,3 +41,13 @@ body {
         padding: 20px;
     }
 }
+
+   /* Your CSS for small text */
+   .small-text {
+    font-size: 26px;
+}
+
+/* Example of potentially overriding global styles */
+p {
+    font-size: 16px;
+}
