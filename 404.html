@@ -1,171 +1,35 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 wrong way bud</title>
+    <title>404 — wrong way, bud</title>
 
-    <!-- Canonical URL -->
     <link rel="canonical" href="https://jam3sval3ntin3.com/404.html" />
-
-
-    <!-- Author -->
-    <meta name="author" content="jam3sval3ntin3">
-
-    <!-- Open Graph Meta Tags for Social Media Sharing -->
-    <meta property="og:title" content="404 wrong way bud">
+    <meta name="author" content="James Valentine">
+    <meta property="og:title" content="404 — wrong way, bud">
     <meta property="og:site_name" content="jam3sval3ntin3"/>
-
     <meta property="og:image" content="images/meta-image.png">
     <meta property="og:url" content="https://jam3sval3ntin3.com/404.html">
     <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jam3sval3ntin3">
 
-     <!-- Twitter Card Meta Tags -->
-     <meta name="twitter:card" content="summary_large_image">
-     <meta name="twitter:site" content="@jam3sval3ntin3">
- 
-     <!-- Favicon -->
-     <link rel="icon" href="images/j3v-favicon.png" type="image/png">
- 
-     <!-- Font and CSS link -->
-     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
- 
-     <style>
-         /* Reset default margins and padding */
-         * {
-             margin: 0;
-             padding: 0;
-             box-sizing: border-box;
-         }
- 
-         body {
-             background-color: #000;
-             color: #fff;
-             font-family: 'Metal Mania', cursive;
-             font-size: 2.625rem;
-             text-align: center;
-             display: flex;
-             flex-direction: column;
-             justify-content: center;
-             align-items: center;
-             padding: 20px;
-         }
- 
-         /* Navigation Bar */
-         .navbar {
-             text-align: center;
-             margin-bottom: 30px;
-         }
- 
-         .navbar ul {
-             list-style-type: none;
-             padding: 0;
-             display: none;
-             flex-direction: column;
-             align-items: center;
-         }
- 
-         .navbar ul li {
-             margin: 10px 0;
-         }
- 
-         .navbar ul li a {
-             color: white;
-             text-decoration: none;
-             font-size: 35px;
-         }
- 
-         .navbar ul li a:hover {
-             color: #00aced;
-         }
- 
-         /* Toggle button for mobile view */
-         .menu-toggle {
-             display: block;
-             cursor: pointer;
-             color: white;
-             font-size: 30px;
-             text-align: right;
-             margin-right: 20px;
-         }
- 
-         /* Show the menu when the checkbox is checked */
-         input[type="checkbox"]:checked ~ .navbar ul {
-             display: flex;
-             flex-direction: column;
-         }
- 
-         /* Responsive styles for larger screens */
-         @media (min-width: 769px) {
-             .navbar ul {
-                 flex-direction: row;
-                 display: flex;
-             }
- 
-             .menu-toggle {
-                 display: none;
-             }
- 
-             .navbar ul li {
-                 margin-right: 20px;
-             }
-         }
- 
-         .social-buttons {
-             margin-top: 10px;
-             text-align: center;
-             display: flex;
-             flex-wrap: wrap;
-             justify-content: center;
-         }
- 
-         .social-buttons a {
-             margin: 10px;
-             font-size: 24px;
-             color: white;
-             text-decoration: none;
-         }
- 
-         .social-buttons a:hover {
-             color: #00aced;
-         }
- 
-         .social-buttons i {
-             font-size: 48px;
-         }
- 
-         @media (max-width: 768px) {
-             body {
-                 font-size: 1.5rem;
-                 padding: 20px;
-             }
-         }
-     </style>
- </head>
- <body>
- 
-     <!-- Hidden checkbox to toggle the menu -->
-     <input type="checkbox" id="menu-toggle" style="display: none;">
-     <label class="menu-toggle" for="menu-toggle">☰</label>
+    <link rel="icon" href="images/j3v-favicon.png" type="image/png">
 
-
-     <h1>wrong way - 404 - gam3 ov3r</h1>
-     <p>w3ll fuck, you made a wrong turn and now you're d3ad, w3lcom3</p>
-     <h2>jam3sval3ntin3</h2>
-     <p><a href="index.html" style="color: #00aced; text-decoration: underline;">back to jam3sval3ntin3</a></p>
-     <p></p>
-     <p>--- ---- ---</p>
-     <p>jam3sval3ntin3@gmail.com<br>@jam3sval3ntin3</p>
-
-
-  <!-- JavaScript to toggle menu -->
-  <script>
-      function toggleMenu() {
-          const navbar = document.querySelector('.navbar');
-          navbar.classList.toggle('active');
-      }
-  </script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="error-page">
+        <p class="error-code">404 · GAME OVER</p>
+        <h1 class="error-title">wrong way, bud</h1>
+        <p class="error-msg">You took a wrong turn and now you're d3ad. Happens to the best of us.</p>
+        <a class="btn btn-primary" href="index.html">← Back to jam3sval3ntin3</a>
+        <p style="margin-top:40px; font-family: var(--mono); font-size: 0.85rem; color: var(--ink-faint);">
+            jam3sval3ntin3@gmail.com · @jam3sval3ntin3
+        </p>
+    </div>
 </body>
 </html>

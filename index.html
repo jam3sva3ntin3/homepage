@@ -3,295 +3,307 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@jam3sval3ntin3</title>
+    <title>James Valentine — Organic Growth, SEO &amp; Content Marketing</title>
 
-    <!-- Canonical URL -->
     <link rel="canonical" href="https://jam3sval3ntin3.com" />
 
+    <meta name="author" content="James Valentine">
+    <meta name="description" content="James Valentine — SEO, content marketing, digital PR and organic growth lead based in Seattle, WA. Résumé, cover letter and portfolio of recent work.">
 
-
-    <!-- Author -->
-    <meta name="author" content="jam3sval3ntin3">
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="@jam3sval3ntin3">
+    <!-- Open Graph -->
+    <meta property="og:title" content="James Valentine — Organic Growth, SEO &amp; Content Marketing">
     <meta property="og:site_name" content="jam3sval3ntin3"/>
-    <meta property="og:description" content="jam3sval3ntin3">
+    <meta property="og:description" content="SEO, content marketing, digital PR and organic growth lead based in Seattle, WA.">
     <meta property="og:image" content="images/meta-image.png">
     <meta property="og:url" content="https://jam3sval3ntin3.com">
     <meta property="og:type" content="website">
 
-    <!-- Twitter Card Meta Tags -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@jam3sval3ntin3">
 
-    <!-- Favicon -->
     <link rel="icon" href="images/j3v-favicon.png" type="image/png">
 
-    <!-- Font and CSS link -->
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <style>
-        /* Reset default margins and padding */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #000; /* Black background */
-            color: #fff; /* White text */
-            font-family: 'Metal Mania', cursive;
-            font-size: 2.625rem; /* 25% smaller than 3.5rem */
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-
-        /* Navigation Bar */
-        .navbar {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .navbar ul {
-            list-style-type: none;
-            padding: 0;
-            display: none; /* Hidden by default */
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .navbar ul li {
-            margin: 10px 0;
-        }
-
-        .navbar ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 35px;
-        }
-
-        .navbar ul li a:hover {
-            color: #00aced;
-        }
-
-        /* Toggle button for mobile view */
-        .menu-toggle {
-            display: block;
-            cursor: pointer;
-            color: white;
-            font-size: 30px;
-            text-align: right;
-            margin-right: 20px;
-        }
-
-        /* Show the menu when the checkbox is checked */
-        input[type="checkbox"]:checked ~ .navbar ul {
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Responsive styles for larger screens */
-        @media (min-width: 769px) {
-            .navbar ul {
-                flex-direction: row;
-                display: flex; /* Show menu by default on larger screens */
-            }
-
-            .menu-toggle {
-                display: none; /* Hide toggle button on larger screens */
-            }
-
-            .navbar ul li {
-                margin-right: 20px;
-            }
-        }
-
-        /* Social button styling */
-        .social-buttons {
-            margin-top: 10px;
-            text-align: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .social-buttons a {
-            margin: 10px;
-            font-size: 24px;
-            color: white;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .social-buttons a:hover {
-            color: #00aced;
-        }
-
-        /* Ensures all social buttons show properly */
-        .social-buttons i {
-            font-size: 48px; /* Increase icon size for better visibility */
-        }
-
-        /* Responsive media query for smaller screens */
-        @media (max-width: 768px) {
-            body {
-                font-size: 1.5rem; /* Adjust for smaller screens */
-                padding: 20px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Hidden checkbox to toggle the menu -->
-    <input type="checkbox" id="menu-toggle" style="display: none;">
-    <label class="menu-toggle" for="menu-toggle">☰</label>
+    <nav class="site-nav">
+        <div class="wrap">
+            <a class="brand" href="#top">jam3sval3ntin3<span>.</span></a>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+            <ul class="nav-links">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Résumé</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-   
-    <header>
-    <h1>jam3s val3ntin3</h1>
-    <h2>d3ad insid3 still aliv3</h2>
-    <p>Content - Marketing - Organic - Analytics - Communications</p>
-    <p>jam3sval3ntin3@gmail.com<br>@jam3sval3ntin3<br>Seattle, WA</p>
-  
-    <br>
-   
-    <section class="resume">
+    <header class="hero" id="top">
+        <h1 class="wordmark">James Valentine</h1>
+        <p class="epitaph">d3ad insid3 · still aliv3</p>
+        <p class="role-line">Organic Growth Lead — SEO, Content Marketing &amp; Digital PR</p>
+        <p class="role-sub">Content Marketing, SEO &amp; Communications Manager · Custom Cones USA &amp; DaySavers · Seattle, WA</p>
+
+        <div class="contact-row">
+            <a href="mailto:jam3sval3ntin3@gmail.com">jam3sval3ntin3@gmail.com</a>
+            <a href="tel:+13606002440">360-600-2440</a>
+            <a href="https://www.linkedin.com/in/jam3sval3ntin3" target="_blank" rel="noopener noreferrer">linkedin.com/in/jam3sval3ntin3</a>
+            <span>Seattle, WA</span>
+        </div>
+
+        <div class="cta-row">
+            <a class="btn btn-primary" href="James-Valentine-Resume.pdf" target="_blank" rel="noopener noreferrer">Download Résumé</a>
+            <a class="btn" href="James-Valentine-Cover-Letter.pdf" target="_blank" rel="noopener noreferrer">Download Cover Letter</a>
+            <a class="btn" href="#portfolio">View Portfolio</a>
+        </div>
     </header>
- 
 
-         
-        
-      
-        <section>
-          <h2><u>Professional Experience</u></h2>
-      
-          <article>
-            <h3><u>Content Marketing Manager</u></h3>
-            <p><strong><u><a href="https://customconesusa.com/" target="_blank">Custom Cones USA</a> &amp; <a href="https://daysavers.com/" target="_blank">DaySavers</a></strong>, Renton, WA | 11/2024-Present</u></p>
-             <p>
-              I lead content marketing and organic growth across B2B and B2C brands, producing 100+ publications and campaigns while gaining over 200 pieces of industry coverage. I manage editorial, publishing, optimization, people, and reporting while supporting national initiatives in media and at conferences. Organic traffic rose 49%, key events 87%, keyword rankings #1–3 increased 961%, and #4–10 increased 641%.
-            </p>
-          </article>
-          <br>
-          <article>
-            <h3><u>Resident Manager</u></h3>
-            <p><strong><u>Maingate Management</strong>, Seattle, WA | 05/2022-02/2025</u></p>
-              <p>
-              Community Manager of the 9-unit Lake Union apartment building where I resided, overseeing leasing, tenant relations, and property management.
-            </p>
-          </article>
-          <br>
-          <article>
-            <h3><u>SEO and Web Analytics Lead</u></h3>
-            <p><strong><u>Horizen</strong>, Seattle, WA | 11/2021-06/2023</u></p>
-              <p>
-              Led SEO strategy and web analytics for a Web3 organization, driving organic traffic growth and user conversions while collaborating with international teams. Managed the redevelopment of Horizon.io/academy, publishing 70 articles with custom graphics and over 180,000 words. Migrated from Google Analytics to GDPR-compliant Matomo, implemented extensive on-page and technical SEO optimizations, and presented organic growth strategies at a global summit in Milan.
-            </p>
-          </article>
-          <br>
-          <article>
-            <h3><u>Off-Page SEO Lead</u></h3>
-            <p><strong><u>HigherEducation.com, acquired by Red Ventures</strong>, Seattle, WA | 06/2018-10/2021</u></p>
-            <p>
-              Managed off-page SEO, content marketing strategy, and weekly launches for 30 digital education brands through 3 acquisitions. Led a 10-member email marketing team and two external resource teams while supporting on-page SEO. Achieved 10% YoY growth, generated 5,000 backlinks from web publishers through outreach and digital PR, and reduced annual vendor spend by $350K. Led the yearlong development and rollout of an internal full-funnel marketing campaign management system.
-            </p>
-          </article>
-          <br>
-          <article>
-            <h3><u>SEO Analyst</u></h3>
-            <p><strong><u>HigherEducation.com</strong>, Seattle, WA | 11/2016-06/2018</u></p>
-            <p>
-              As SEO Manager for OnlineMBA.com, captured $1 million in monthly traffic value by implementing a Hub-and-Spoke content model, producing 250 articles, profiling 1,000 MBA programs, and optimizing on-page, off-page, and technical SEO to increase site engagement and conversions.
-            </p>
-          </article>
-          <br>
-          <article>
-            <h3><u>Off-Page SEO Associate</u></h3>
-            <p><strong><u>HigherEducation.com</strong>, Seattle, WA | 06/2015-11/2016</u></p>
-             <p>
-              Developed full-funnel content targeting intent-driven keywords and audiences, securing 1,000+ quality links and content placements through email campaigns, boosting off-page SEO and driving high-intent organic traffic that increased revenue-generating leads.
-            </p>
-          </article>
-          <br>
-          <article>
-            <h3><u>Front of House Staff</u></h3>
-            <p><strong><u>Restaurants</strong>, Washington, Idaho | 07/2005-05/2015</u></p>
-            <p>
-              Server for 5 years at Ivar's Salmon House, Bardenay, The Stuffed Olive, Angell's Renato, and Applebee's. Busser, Host, and Barback for 5 years at 13th St Pub &amp; Grill, Mai Thai, McGrath's, Arawan Thai Cuisine, and Sushi Land.
-            </p>
-          </article>
-        </section>
-        <br>
-        <section>
-          <h2><u>Education</u></h2>
-       
-          <article>
-            <h3><u>Bachelor of Business Administration, Minor in Marketing</u></h3>
-            <p>Boise State University, Boise, ID | 01/2010-05/2013</p>
-          </article>
-          <br>
-          <article>
-            <h3><u>Certificate in Digital Marketing Analytics</u></h3>
-            <p>University of Washington, Seattle, WA | 09/2018-06/2019</p>
-          </article>
-        </section>
-        <br>
-        <section>
-          <h2><u>Portfolio</u></h2>
-          <p>
-            <a href="https://bit.ly/james-valentine-portfolio" target="_blank" rel="noopener noreferrer">
-              Recent Publications &amp; Coverage
-            </a>
-          </p>
-        </section>
-        <br>
-        <section>
-          <h2><u>2025 Work Summary</u></h2>
-  
-            <p>Authored 50+ articles and produced 75 more including editorial and data-backed reports</p>
-            <p>Built 200+ in-house backlinks across two domains with a 30 DR average</p>
-            <p>Organic traffic up 49%, key events up 87%, keyword rankings 1-3 up 961%, and 4-10 up 641%</p>
-            <p>Supported 10 trade shows nationally</p>
-     
-        </section>
-        <br>
-        <section>
-          <h2><u>Skills</u></h2>
-      
-          <h3><u>SEO, Organic Growth, and Web Analytics</u></h3>  
-      
-            <p>On-page, Off-page and Technical SEO, Search Engine Optimization, Web Strategy, Serving Intent</p>
-            <p>Competitive Analysis, Keyword Research, Opportunity Prioritization, Website Management</p>
-            <p>Algorithm Updates, SEO Best Practices, Program Management, Site Audits</p>
-            <p>Onboarding, Training, Development, Quality Assurance, Project and Resource Management</p>
-            <p>Marketing Analytics, Performance Reporting, Data Management, Formulas, Dashboarding</p>
-            <p>Ahrefs, Semrush, Moz, Screaming Frog, Google Analytics, Search Console, Matomo, seoClarity</p>
-            <p>Visual Studio Code, BigCommerce, Cloudflare, Markdown, Wordpress, HTML, ChatGPT, Schema</p>
-            <p>Microsoft and Google Suite, Excel and Sheets, Tableau, Jira, Asana, Confluence, Notion, Hotjar</p>
-   
-          <br>
-          <h3><u>Content Marketing, Communication &amp; PR, and Management</u></h3>  
-  
-            <p>Content Strategy, Development, Optimization, Publishing, Marketing, and Amplification</p>
-            <p>Storytelling, Brand and Product Development, Audience Identification, Segmentation, Messaging</p>
-            <p>Digital PR, Link Building, Campaign Management, Email Marketing, Communications</p>
-            <p>Trend Research, Experimentation, Performance Analytics, Content Audits, Reporting</p>
-            <p>Google Trends, AnswerThePublic, Google Scholar, UberSuggest, Medium, Hemingway Editor</p>
-            <p>Kaggle, Google Dataset, Statista, IPEDS, College Navigator, Data.gov</p>
-            <p>Salesforce, Pitchbox, Mailgun, Mailchimp, Survey Monkey, YouGov, Hubspot, Klaviyo</p>
-     
-        </section>
-      </section>
+    <section id="experience">
+        <div class="wrap">
+            <div class="section-head"><span class="mark">†</span><h2>Professional Experience</h2></div>
 
+            <article class="epitaph-card">
+                <div class="epitaph-head">
+                    <div>
+                        <span class="epitaph-role">Content Marketing, SEO &amp; Communications Manager</span> —
+                        <span class="epitaph-org">Custom Cones USA &amp; DaySavers</span>
+                        <div class="epitaph-loc">Renton, WA</div>
+                    </div>
+                    <div class="epitaph-dates">11/2024 – Present</div>
+                </div>
+                <p class="epitaph-body">
+                    Lead content marketing and organic growth across B2B and D2C brands — 100+ publications and campaigns produced, 500+ pieces of earned industry coverage secured. Own editorial, publishing, in-house PR, optimization, people and analytics, while supporting national initiatives across media and trade shows.
+                </p>
+                <div class="stat-row">
+                    <span class="stat-pill">Organic traffic +238%</span>
+                    <span class="stat-pill">Revenue +393%</span>
+                    <span class="stat-pill">KW rankings #1–10 +444%</span>
+                    <span class="stat-pill">550 linked coverage pieces</span>
+                </div>
+            </article>
 
+            <article class="epitaph-card">
+                <div class="epitaph-head">
+                    <div>
+                        <span class="epitaph-role">Resident Manager</span> —
+                        <span class="epitaph-org">MainGate Management</span>
+                        <div class="epitaph-loc">Seattle, WA</div>
+                    </div>
+                    <div class="epitaph-dates">05/2022 – 02/2025</div>
+                </div>
+                <p class="epitaph-body">
+                    Leasing, tenant relations and property management for a 9-unit Lake Union apartment building.
+                </p>
+            </article>
 
+            <article class="epitaph-card">
+                <div class="epitaph-head">
+                    <div>
+                        <span class="epitaph-role">SEO &amp; Web Analytics Lead</span> —
+                        <span class="epitaph-org">Horizen</span>
+                        <div class="epitaph-loc">Seattle, WA · Remote</div>
+                    </div>
+                    <div class="epitaph-dates">11/2021 – 06/2023</div>
+                </div>
+                <p class="epitaph-body">
+                    Led SEO strategy and web analytics for a Web3 organization, driving organic traffic growth and user conversions with international teams. Managed the redevelopment of Horizen.io/academy, publishing 70 articles and 180,000+ words. Migrated Google Analytics to GDPR-compliant Matomo, executed on-page and technical SEO, and presented organic growth strategy at a global summit in Milan.
+                </p>
+            </article>
+
+            <article class="epitaph-card">
+                <div class="epitaph-head">
+                    <div>
+                        <span class="epitaph-role">Off-Page SEO Lead → SEO Analyst → Off-Page SEO Associate</span> —
+                        <span class="epitaph-org">HigherEducation.com (acquired by Red Ventures)</span>
+                        <div class="epitaph-loc">Seattle, WA</div>
+                    </div>
+                    <div class="epitaph-dates">06/2015 – 10/2021</div>
+                </div>
+                <p class="epitaph-body">
+                    Managed off-page SEO, content strategy and weekly launches for 30 digital education brands through 3 acquisitions. Led a 10-member email marketing team and two external resource teams. As SEO Manager for OnlineMBA.com, captured $1M in monthly traffic value via a Hub-and-Spoke content model across 250 articles profiling 1,000 MBA programs. Built full-funnel content that secured 1,000+ quality links through outreach.
+                </p>
+                <div class="stat-row">
+                    <span class="stat-pill">10% YoY growth</span>
+                    <span class="stat-pill">5,000 backlinks earned</span>
+                    <span class="stat-pill">Vendor spend −$350K</span>
+                </div>
+            </article>
+
+            <article class="epitaph-card">
+                <div class="epitaph-head">
+                    <div>
+                        <span class="epitaph-role">Front of House Staff</span> —
+                        <span class="epitaph-org">Restaurants</span>
+                        <div class="epitaph-loc">Washington &amp; Idaho</div>
+                    </div>
+                    <div class="epitaph-dates">07/2005 – 05/2015</div>
+                </div>
+                <p class="epitaph-body">
+                    Server for 5 years at Ivar's Salmon House, Bardenay, The Stuffed Olive, Angell's Renato and Applebee's. Busser, host and barback for 5 years at 13th St Pub &amp; Grill, Mai Thai, Arawan Thai Cuisine and Sushi Land.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="wrap">
+            <div class="section-head"><span class="mark">†</span><h2>Education</h2></div>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <h3>Bachelor of Business Administration, Minor in Marketing</h3>
+                    <p>Boise State University, Boise, ID</p>
+                    <span class="epitaph-dates">01/2010 – 05/2013</span>
+                </div>
+                <div class="edu-card">
+                    <h3>Certificate in Digital Marketing Analytics</h3>
+                    <p>University of Washington, Seattle, WA</p>
+                    <span class="epitaph-dates">09/2018 – 06/2019</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="wrap">
+            <div class="section-head"><span class="mark">†</span><h2>Skills</h2></div>
+            <div class="skills-grid">
+                <div class="skills-group">
+                    <h3>SEO, Organic Growth &amp; Web Analytics</h3>
+                    <div class="pill-list">
+                        <span class="pill">Technical, On-Page &amp; Off-Page SEO</span>
+                        <span class="pill">Organic Growth Strategy</span>
+                        <span class="pill">Competitive Analysis</span>
+                        <span class="pill">Keyword Research</span>
+                        <span class="pill">Site Audits &amp; QA</span>
+                        <span class="pill">Algorithm Analysis</span>
+                        <span class="pill">AI Proficiency</span>
+                        <span class="pill">Team Management</span>
+                        <span class="pill">Project &amp; Resource Management</span>
+                        <span class="pill">Marketing Analytics &amp; Dashboarding</span>
+                        <span class="pill">High-Volume Content Production</span>
+                        <span class="pill">New Product Launch Strategy</span>
+                    </div>
+                    <p class="skills-tools"><strong>Tools:</strong> Ahrefs, Screaming Frog, Google Analytics &amp; Search Console, Matomo, Hotjar, Jira, Asana, Monday, Confluence, Excel &amp; Sheets, BigCommerce, Cloudflare, HTML, Schema Markup, Markdown, VS Code, Claude, ChatGPT, Gemini, AEO/GEO</p>
+                </div>
+                <div class="skills-group">
+                    <h3>Content Marketing, Digital PR &amp; Communications</h3>
+                    <div class="pill-list">
+                        <span class="pill">Editorial Strategy &amp; Production</span>
+                        <span class="pill">Brand Positioning</span>
+                        <span class="pill">Earned Media Strategy</span>
+                        <span class="pill">High-Authority Link Acquisition</span>
+                        <span class="pill">Campaign Management</span>
+                        <span class="pill">Email Marketing</span>
+                        <span class="pill">Performance Analysis</span>
+                        <span class="pill">Web Audits</span>
+                        <span class="pill">Trend &amp; Consumer Research</span>
+                        <span class="pill">Relationship Building</span>
+                    </div>
+                    <p class="skills-tools"><strong>Tools:</strong> Pitchbox, Klaviyo, Mailchimp, Mailgun, Salesforce, Google Trends, Headset, AnswerThePublic, Ubersuggest, YouGov, Typeform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="wrap">
+            <div class="section-head"><span class="mark">†</span><h2>Portfolio</h2></div>
+            <p class="portfolio-intro">A selection of recent publications and earned media coverage — spanning cannabis, Web3 and higher-education verticals.</p>
+
+            <p class="portfolio-sub">Publications</p>
+            <div class="link-grid">
+                <a href="https://daysavers.com/higher-potential-scholarship/" target="_blank" rel="noopener noreferrer">DaySavers Higher Potential Scholarship</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-roll-reports/canadian-pre-roll-report/" target="_blank" rel="noopener noreferrer">State of the Canadian Pre-Roll Market Report</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/top-pre-rolls/" target="_blank" rel="noopener noreferrer">Top 100 Pre-Roll Brands</a>
+                <a href="https://daysavers.com/preroll-blog/grinders/the-best-weed-grinders/" target="_blank" rel="noopener noreferrer">The Best Weed Grinders on the Market</a>
+                <a href="https://daysavers.com/preroll-blog/cannabis/cannabis-education-certificates-and-degrees/" target="_blank" rel="noopener noreferrer">Cannabis Education, Certificates &amp; Degrees</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/top-pre-rolls/canada/" target="_blank" rel="noopener noreferrer">Top 50 Canadian Pre-Roll Brands</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-roll-reports/" target="_blank" rel="noopener noreferrer">State of the Pre-Roll Market Report</a>
+                <a href="https://daysavers.com/preroll-blog/grinders/flower-mill-grinder-review/" target="_blank" rel="noopener noreferrer">Testing the Flower Mill</a>
+                <a href="https://daysavers.com/preroll-blog/blunts/" target="_blank" rel="noopener noreferrer">Everything Blunts</a>
+                <a href="https://daysavers.com/preroll-blog/rolling-papers/are-printed-rolling-papers-safe/" target="_blank" rel="noopener noreferrer">Are Printed Rolling Papers Safe?</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-roll-reports/popular-methods-of-preroll-infusion/" target="_blank" rel="noopener noreferrer">Top Methods of Pre-Roll Infusion</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-rolls/ppe-in-cannabis-pre-roll-production/" target="_blank" rel="noopener noreferrer">PPE in Pre-Roll Production</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-roll-reports/popular-methods-of-preroll-infusion/" target="_blank" rel="noopener noreferrer">Leading Methods of Infusion</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-roll-reports/cbd-preroll-report/" target="_blank" rel="noopener noreferrer">CBD Pre-Roll Report</a>
+                <a href="https://customconesusa.com/pre-roll-expert-blog/pre-rolls/cheapest-prerolls-in-the-us/" target="_blank" rel="noopener noreferrer">Cheapest U.S. Pre-Rolls</a>
+                <a href="https://daysavers.com/preroll-blog/grinders/stache-grinder-review/" target="_blank" rel="noopener noreferrer">The Stache 360</a>
+                <a href="https://daysavers.com/preroll-blog/grinders/" target="_blank" rel="noopener noreferrer">Weed Grinders Under the Spotlight</a>
+                <a href="https://daysavers.com/preroll-blog/filter-tips/cool-filter-tip-crutches-for-pre-rolls/" target="_blank" rel="noopener noreferrer">Creative Crutches</a>
+            </div>
+
+            <p class="portfolio-sub">Media Coverage</p>
+            <div class="link-grid">
+                <a href="https://www.forbes.com/sites/ajherrington/2026/04/14/pre-rolls-overtake-flower-as-top-cannabis-product-in-2025/" target="_blank" rel="noopener noreferrer">Forbes</a>
+                <a href="https://hightimes.com/news/dream-of-working-in-weed-this-scholarship-could-make-it-happen/" target="_blank" rel="noopener noreferrer">High Times</a>
+                <a href="https://ganjapreneur.com/report-pre-rolls-become-largest-cannabis-industry-product-category/" target="_blank" rel="noopener noreferrer">Ganjapreneur</a>
+                <a href="https://mjbizdaily.com/news/pre-rolls-close-in-on-top-cannabis-sales-spot-in-canada/402027/" target="_blank" rel="noopener noreferrer">MJBizDaily</a>
+                <a href="https://cannatechtoday.com/cannabis-tech-today-and-industry-leaders-launch-the-higher-potential-cannabis-scholarship-with-over-25000-in-awards/" target="_blank" rel="noopener noreferrer">Cannabis &amp; Tech Today</a>
+                <a href="https://cannabisindustryjournal.com/column/how-to-use-blunts-as-a-brand-building-catalyst/" target="_blank" rel="noopener noreferrer">Cannabis Industry Journal</a>
+                <a href="https://www.loud-magazine.com/blog/elevating-the-preroll-with-daysavers" target="_blank" rel="noopener noreferrer">Loud Magazine</a>
+                <a href="https://www.marijuanaventure.com/cannabis-brands-team-up-to-offer-scholarships-valued-at-25000/" target="_blank" rel="noopener noreferrer">Marijuana Venture</a>
+                <a href="https://psla.uconn.edu/spss-scholarships/" target="_blank" rel="noopener noreferrer">University of Connecticut</a>
+                <a href="https://www.greenstate.com/lifestyle/most-popular-cannabis-product-pre-rolls/" target="_blank" rel="noopener noreferrer">GreenState</a>
+                <a href="https://herb.co/learn/best-pre-rolled-cones" target="_blank" rel="noopener noreferrer">Herb</a>
+                <a href="https://www.mmjdaily.com/article/9829574/pre-rolls-have-become-us-cannabis-industry-s-top-seller/" target="_blank" rel="noopener noreferrer">MMJ Daily</a>
+                <a href="https://skunkglobalmarijuanaculture.com/cannabis-world-news/new-cannabis-scholarship-launches-with-over-25000-in-resources-to-uplift-the-next-generation-of-industry-leaders/" target="_blank" rel="noopener noreferrer">Skunk Magazine</a>
+                <a href="https://www.marijuanamoment.net/how-do-the-u-s-and-canadian-markets-for-pre-roll-marijuana-products-differ-op-ed/" target="_blank" rel="noopener noreferrer">Marijuana Moment</a>
+                <a href="https://themarijuanaherald.com/2025/09/pre-rolls-overtake-flower-as-canadas-top-selling-marijuana-category/" target="_blank" rel="noopener noreferrer">The Marijuana Herald</a>
+                <a href="https://www.mycannabis.com/james-valentine-communications-content-marketing-manager-at-custom-cones-usa-interview-series/" target="_blank" rel="noopener noreferrer">MyCannabis</a>
+                <a href="https://cannacon.org/pre-rolls-become-cannabis-industrys-top-selling-category-by-units-as-growth-accelerates-according-to-custom-cones-usa-2026-market-report/" target="_blank" rel="noopener noreferrer">CannaCon</a>
+                <a href="https://headmagazine.com/the-canada-and-us-pre-roll-scene/" target="_blank" rel="noopener noreferrer">Head Magazine</a>
+                <a href="https://www.sunmedgrowers.com/news-events/sunmed-news/sunmed-growers-named-one-of-the-top-100-pre-roll-brands-in-the-u-s/" target="_blank" rel="noopener noreferrer">SunMed Growers</a>
+                <a href="https://honeysucklemag.com/daysavers-higher-potential-cannabis-scholarship-workforce-development/" target="_blank" rel="noopener noreferrer">Honeysuckle Magazine</a>
+                <a href="https://the420times.com/pre-rolls-top-the-canadian-cannabis-market/" target="_blank" rel="noopener noreferrer">The 420 Times</a>
+                <a href="https://cannigma.com/how-to/how-to-pack-perfect-pre-roll-cones-tubes/" target="_blank" rel="noopener noreferrer">Cannigma</a>
+                <a href="https://thecbdmagazine.net/cbd-pre-roll-market-entering-2026" target="_blank" rel="noopener noreferrer">The CBD Mag</a>
+                <a href="https://www.nuggmd.com/blog/what-is-a-pre-roll-everything-you-need-to-know" target="_blank" rel="noopener noreferrer">NuggMD</a>
+                <a href="https://www.mmj.com/learn/consumption-methods/blunts/" target="_blank" rel="noopener noreferrer">MMJ</a>
+                <a href="https://weedweek.com/newsletter/feds-block-stiiizy-vape-imports-newsletter-1-23-26/" target="_blank" rel="noopener noreferrer">Weed Week</a>
+                <a href="https://cashcolorcannabis.com/2026/02/13/industry-insight-why-pre-rolls-continue-to-dominate/" target="_blank" rel="noopener noreferrer">Cash Color Cannabis</a>
+            </div>
+
+            <p class="portfolio-cta">
+                <a class="btn" href="https://docs.google.com/document/d/1eRN3Q4bc_vffHNiwcxgWwGSs8FyxF9MK-25Z-S0yEhg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Full Portfolio Document ↗</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="wrap contact-section">
+            <div class="section-head" style="justify-content:center;"><span class="mark">†</span><h2>Résumé &amp; Cover Letter</h2></div>
+            <p>Download either document as a PDF, or reach out directly — details below.</p>
+            <div class="cta-row">
+                <a class="btn btn-primary" href="James-Valentine-Resume.pdf" target="_blank" rel="noopener noreferrer">Download Résumé (PDF)</a>
+                <a class="btn" href="James-Valentine-Cover-Letter.pdf" target="_blank" rel="noopener noreferrer">Download Cover Letter (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="wrap">
+            <div class="section-head" style="justify-content:center;"><span class="mark">†</span><h2>Contact</h2></div>
+            <p>Seattle, WA — open to conversations about organic growth, content and digital PR roles.</p>
+            <div class="contact-row" style="margin-top:0;">
+                <a href="mailto:jam3sval3ntin3@gmail.com">jam3sval3ntin3@gmail.com</a>
+                <a href="tel:+13606002440">360-600-2440</a>
+                <a href="https://www.linkedin.com/in/jam3sval3ntin3" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a class="back-top" href="#top">↑ Back to top</a>
+        <p>© 2026 James Valentine · jam3sval3ntin3@gmail.com · <a href="https://www.linkedin.com/in/jam3sval3ntin3" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
