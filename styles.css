@@ -149,7 +149,7 @@ img { max-width: 100%; display: block; }
 
 /* ---------- hero ---------- */
 .hero {
-  padding: 56px var(--pad) 36px;
+  padding: 40px var(--pad) 36px;
   text-align: center;
   position: relative;
 }
@@ -221,6 +221,8 @@ img { max-width: 100%; display: block; }
   gap: 14px;
   margin: 24px 0 0;
 }
+
+#resume .cta-row { margin-bottom: 8px; }
 
 .btn {
   font-family: var(--mono);
@@ -316,7 +318,7 @@ section > .wrap { padding-left: 0; padding-right: 0; }
 .epitaph-body {
   margin-top: 8px;
   color: var(--ink-dim);
-  max-width: 88ch;
+  max-width: 100%;
   font-size: 1rem;
   line-height: 1.72;
 }
@@ -345,6 +347,7 @@ section > .wrap { padding-left: 0; padding-right: 0; }
   display: grid;
   grid-template-columns: 1fr;
   gap: 14px;
+  margin-bottom: 18px;
 }
 @media (min-width: 640px) { .edu-grid { grid-template-columns: 1fr 1fr; } }
 
@@ -404,7 +407,7 @@ section > .wrap { padding-left: 0; padding-right: 0; }
 /* ---------- portfolio ---------- */
 .portfolio-intro {
   color: var(--ink-dim);
-  max-width: 84ch;
+  max-width: 100%;
   margin: 0 auto 18px;
   text-align: center;
   font-size: 1.02rem;
@@ -416,7 +419,7 @@ section > .wrap { padding-left: 0; padding-right: 0; }
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ink-faint);
-  margin: 18px 0 10px;
+  margin: 28px 0 25px;
   text-align: center;
 }
 .portfolio-sub:first-of-type { margin-top: 0; }
@@ -428,6 +431,7 @@ section > .wrap { padding-left: 0; padding-right: 0; }
 }
 @media (min-width: 640px) { .link-grid { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 900px) { .link-grid { grid-template-columns: 1fr 1fr 1fr; } }
+.link-grid:last-of-type { margin-bottom: 10px; }
 
 .link-grid a {
   display: block;
